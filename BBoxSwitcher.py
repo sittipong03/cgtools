@@ -1,6 +1,7 @@
 import maya.cmds as cmds
 import sys
 
+# list all obj shape
 selectobj = cmds.ls(sl=True)
 selected = cmds.listRelatives(selectobj , ad =True, type = "transform")
 for y in selectobj:

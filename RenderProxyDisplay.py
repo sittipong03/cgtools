@@ -189,4 +189,6 @@ def main():
         
         
     cmds.showWindow(nzt_Tools)
+
+#run on main function    
 main()
